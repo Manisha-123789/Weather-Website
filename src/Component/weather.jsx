@@ -55,7 +55,7 @@ function WeatherComponent() {
     console.log("this is city " + city);
 
     useEffect(() => {
-        axios.get(`https://api.weatherapi.com/v1/forecast.json?key=eb9e68225042466fb88115319241707&q=${city}`)
+        axios.get(`https://api.weatherapi.com,............................addyoururl.................${city}`)
             .then((res) => {
                 var weather_res = res.data;
                 console.log('weather_res' + weather_res)
